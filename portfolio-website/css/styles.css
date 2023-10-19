@@ -6,7 +6,6 @@ Primary Color (Purple): #357b70;
 Secondary Color (Orange): #e0b354;
  */
 
-
 :root {
   --primary-color: #357b70;
   --secondary-color: #e0b354;
@@ -31,9 +30,11 @@ Secondary Color (Orange): #e0b354;
 body {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
-    /* Sets the font size to 16px */
+
+  /* Sets the font size to 16px */
   font-size: 16px;
-    /* Sets the line-height to 1.6 */
+
+  /* Sets the line-height to 1.6 */
   background-color: var(--background-color);
 }
 
@@ -61,12 +62,12 @@ a {
 } */
 
 a:hover {
-    /* No underlining when hovering over a link */
+  /* No underlining when hovering over a link */
   text-decoration: none;
 }
 
 a:active {
-    /* selected link */
+  /* selected link */
   color: var(--primary-color);
 }
 
@@ -93,7 +94,6 @@ a:active {
   display: flex;
   flex-direction: column;
   text-align: center;
-
 }
 
 /* .social-media {
@@ -106,18 +106,19 @@ a:active {
   height: auto;
   width: 150px;
   color: var(--black-color);
+
   /* align-self: center; */
 }
+
 .navbar {
   align-self: center;
   text-decoration: none;
 }
 
-.navbar li{
+.navbar li {
   list-style: none;
   padding: 5px;
   display: inline-block;
-  
 }
 
 nav {
@@ -158,6 +159,7 @@ nav {
   display: flex;
   flex-direction: column;
   width: 40%;
+
   /* align-content: center;
   justify-content: center; */
 }
@@ -172,19 +174,20 @@ button:focus,
   transform: scale(1.1);
 }
 
-.button, button {
+.button,
+button {
   /* overwrites browser defaults and resets the border */
   border: none;
   display: inline-block;
   font-family: inherit;
-  background-color:var(--primary-color);
+  background-color: var(--primary-color);
   color: var(--white-color);
   text-decoration: none;
   padding: 10px;
   margin-top: 5px;
   border-radius: 3px;
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
-  transition-duration: 0.2s; 
+  transition-duration: 0.2s;
   transition-timing-function: ease-in-out;
 }
 
@@ -217,24 +220,25 @@ button:focus,
 /* ANIMATIONS */
 @keyframes cloud-move-reverse {
   from {
-    transform: translate (446px,48px)
+    transform: translate (446px, 48px);
   }
+
   to {
     transform: translate(100px, 48px);
   }
 }
 
 @keyframes cloud-move {
-  from{
+  from {
     transform: translate(0, 50px);
   }
+
   to {
-    transform: translate(200px,50px);
+    transform: translate(200px, 50px);
   }
 }
 
-
- /* @keyframes color-change {
+/* @keyframes color-change {
     from {
       fill: #edc655;
     }
@@ -242,18 +246,18 @@ button:focus,
       fill: #f76414;
     }
   } */
-  
-  @keyframes color-change {
+@keyframes color-change {
   0% {
     fill: var(--sun-animation0);
   }
+
   50% {
     fill: var(--sun-animation50);
   }
+
   100% {
     fill: var(--sun-animation100);
   }
-  
 }
 
 /* @keyframes social-links-color-change {
@@ -264,7 +268,6 @@ button:focus,
     opacity: 0.1;
   }
 } */
-
 
 /* MEDIA QUERYS */
 @media all and (max-width: 500px) {
@@ -312,6 +315,5 @@ button:focus,
     h1 {
       font-size: 22px;
     }
-
   }
 }
