@@ -1,14 +1,16 @@
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
-    /* Sets the font size to 16px */
+
+  /* Sets the font size to 16px */
   font-size: 16px;
-    /* Sets the line-height to 1.6 */
+
+  /* Sets the line-height to 1.6 */
   background-color: #fff5e0;
 }
 
@@ -36,12 +38,12 @@ a {
 } */
 
 a:hover {
-    /* No underlining when hovering over a link */
+  /* No underlining when hovering over a link */
   text-decoration: none;
 }
 
 a:active {
-    /* selected link */
+  /* selected link */
   color: #357b70;
 }
 
@@ -70,10 +72,9 @@ a:active {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   text-align: center;
-
 }
 
 /* .social-media {
@@ -86,20 +87,21 @@ a:active {
   height: auto;
   width: 150px;
   color: #000;
+
   /* align-self: center; */
 }
+
 .navbar {
   -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  -ms-grid-row-align: center;
+  align-self: center;
   text-decoration: none;
 }
 
-.navbar li{
+.navbar li {
   list-style: none;
   padding: 5px;
   display: inline-block;
-  
 }
 
 nav {
@@ -109,16 +111,16 @@ nav {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   margin-bottom: 10px;
   background-color: #d3d3d3;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .contact-body {
@@ -126,15 +128,15 @@ nav {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .grid {
@@ -156,8 +158,8 @@ nav {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .experience-table {
@@ -166,9 +168,10 @@ nav {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   width: 40%;
+
   /* align-content: center;
   justify-content: center; */
 }
@@ -181,8 +184,8 @@ button:focus,
   cursor: pointer;
   opacity: 0.8;
   -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
-          transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .button {
@@ -190,7 +193,7 @@ button:focus,
   border: none;
   display: inline-block;
   font-family: inherit;
-  background-color:#357b70;
+  background-color: #357b70;
   color: #fff;
   text-decoration: none;
   padding: 10px;
@@ -198,11 +201,11 @@ button:focus,
   border-radius: 3px;
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   -webkit-transition-duration: 0.2s;
-       -o-transition-duration: 0.2s;
-          transition-duration: 0.2s; 
-  -webkit-transition-timing-function: ease-in-out; 
-       -o-transition-timing-function: ease-in-out; 
-          transition-timing-function: ease-in-out;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
 }
 
 button {
@@ -210,7 +213,7 @@ button {
   border: none;
   display: inline-block;
   font-family: inherit;
-  background-color:#357b70;
+  background-color: #357b70;
   color: #fff;
   text-decoration: none;
   padding: 10px;
@@ -218,25 +221,25 @@ button {
   border-radius: 3px;
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   -webkit-transition-duration: 0.2s;
-       -o-transition-duration: 0.2s;
-          transition-duration: 0.2s; 
-  -webkit-transition-timing-function: ease-in-out; 
-       -o-transition-timing-function: ease-in-out; 
-          transition-timing-function: ease-in-out;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
 }
 
 /* ANIMATION PIC */
 .sun {
   -webkit-animation-duration: 4s;
-          animation-duration: 4s;
+  animation-duration: 4s;
   -webkit-animation-name: color-change;
-          animation-name: color-change;
+  animation-name: color-change;
   -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
   -webkit-animation-direction: alternate;
-          animation-direction: alternate;
+  animation-direction: alternate;
   -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
+  animation-timing-function: linear;
 
   /* animation: 4s color-change infinite alternate linear;
   /*THIS IS CLEANER/CONDENSED AND SAVES SPACE IN YOUR CODE! */
@@ -244,7 +247,7 @@ button {
 
 .cloud-front {
   -webkit-animation: 30s cloud-move infinite alternate linear;
-          animation: 30s cloud-move infinite alternate linear;
+  animation: 30s cloud-move infinite alternate linear;
 
   /* animation-duration: 30s;
   animation-name: cloud-move;
@@ -255,55 +258,59 @@ button {
 
 .cloud-back {
   -webkit-animation: 34s cloud-move-reverse infinite alternate linear;
-          animation: 34s cloud-move-reverse infinite alternate linear;
+  animation: 34s cloud-move-reverse infinite alternate linear;
 }
 
 /* ANIMATIONS */
 @-webkit-keyframes cloud-move-reverse {
   from {
-    -webkit-transform: translate (446px,48px);
-            transform: translate (446px,48px)
+    -webkit-transform: translate (446px, 48px);
+    transform: translate (446px, 48px);
   }
+
   to {
     -webkit-transform: translate(100px, 48px);
-            transform: translate(100px, 48px);
+    transform: translate(100px, 48px);
   }
 }
+
 @keyframes cloud-move-reverse {
   from {
-    -webkit-transform: translate (446px,48px);
-            transform: translate (446px,48px)
+    -webkit-transform: translate (446px, 48px);
+    transform: translate (446px, 48px);
   }
+
   to {
     -webkit-transform: translate(100px, 48px);
-            transform: translate(100px, 48px);
+    transform: translate(100px, 48px);
   }
 }
 
 @-webkit-keyframes cloud-move {
-  from{
+  from {
     -webkit-transform: translate(0, 50px);
-            transform: translate(0, 50px);
+    transform: translate(0, 50px);
   }
+
   to {
-    -webkit-transform: translate(200px,50px);
-            transform: translate(200px,50px);
+    -webkit-transform: translate(200px, 50px);
+    transform: translate(200px, 50px);
   }
 }
 
 @keyframes cloud-move {
-  from{
+  from {
     -webkit-transform: translate(0, 50px);
-            transform: translate(0, 50px);
+    transform: translate(0, 50px);
   }
+
   to {
-    -webkit-transform: translate(200px,50px);
-            transform: translate(200px,50px);
+    -webkit-transform: translate(200px, 50px);
+    transform: translate(200px, 50px);
   }
 }
 
-
- /* @keyframes color-change {
+/* @keyframes color-change {
     from {
       fill: #edc655;
     }
@@ -311,31 +318,33 @@ button {
       fill: #f76414;
     }
   } */
-  
-  @-webkit-keyframes color-change {
+
+@-webkit-keyframes color-change {
   0% {
     fill: #edc655;
   }
+
   50% {
     fill: #fcffad;
   }
+
   100% {
     fill: #f76414;
   }
-  
 }
-  
-  @keyframes color-change {
+
+@keyframes color-change {
   0% {
     fill: #edc655;
   }
+
   50% {
     fill: #fcffad;
   }
+
   100% {
     fill: #f76414;
   }
-  
 }
 
 /* @keyframes social-links-color-change {
@@ -346,7 +355,6 @@ button {
     opacity: 0.1;
   }
 } */
-
 
 /* MEDIA QUERYS */
 @media all and (max-width: 500px) {
@@ -396,6 +404,5 @@ button {
     h1 {
       font-size: 22px;
     }
-
   }
 }
